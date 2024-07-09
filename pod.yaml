@@ -4,7 +4,7 @@ metadata:
   name: flaskpod
 spec:
   containers:
-  - name: nginx
-    image: nginx:1.14.2
+  - name: flaskcontainer
+    image: datamasterr/flaskapp:latest
     ports:
-    - containerPort: 80
+    - containerPort: 5000
